@@ -1,4 +1,6 @@
-# AI Medical Imaging Assistant ![Click here to try the app](https://brightmanmt-ai-medical-imaging-assistant-app-dk28lz.streamlit.app/)
+# AI Medical Imaging Assistant 
+
+[try the app here](https://brightmanmt-ai-medical-imaging-assistant-app-dk28lz.streamlit.app/)
 
 > **Explainable pneumonia detection from chest X-rays with deep learning, decision intelligence, and production-grade UI.**
 
