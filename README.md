@@ -29,15 +29,30 @@ What makes this project stand out is the combination of:
 
 ## 🖼️ App Preview
 
-![App UI](./assets/app_ui.png)
+![App UI](./assets/home.png)
+![App UI](./assets/xray.png)
 
 ## 🔥 Grad-CAM Visualization
 
-![GradCAM](./assets/gradcam.png)
+![GradCAM](./assets/gradcam2.png)
 
 ## 📊 Model Performance
 
-![Metrics](./assets/metrics.png)
+The current model is optimized for **high-recall pneumonia screening**, prioritizing missed-case reduction while maintaining a strong overall F1-score.
+
+| Metric | Score | Interpretation |
+|--------|-------|----------------|
+| Accuracy | **80.45%** | Strong overall classification performance |
+| Recall | **99.49%** | Extremely high sensitivity for pneumonia detection |
+| Precision | **76.38%** | Some false positives remain, but screening safety is prioritized |
+| F1 Score | **86.41%** | Good balance between precision and recall |
+
+### Confusion Matrix
+
+| Actual \ Predicted | Normal | Pneumonia |
+|-------------------|--------|-----------|
+| Normal | **114** | **120** |
+| Pneumonia | **2** | **388** |
 
 ---
 
